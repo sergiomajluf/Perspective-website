@@ -1,7 +1,5 @@
 <?php
 
-print_r($_POST);
-
     $url=parse_url(getenv("CLEARDB_DATABASE_URL"));
 
     $server = $url["host"];
@@ -12,10 +10,7 @@ print_r($_POST);
 
     mysql_connect($server, $username, $password) OR DIE ("Unable to
             connect to database! Please try again later.");
-
-            
     
     mysql_select_db($db) ;
-
 
 ?>
