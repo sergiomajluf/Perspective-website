@@ -61,7 +61,7 @@ Buscamos voluntarios para participar en un estudio durante 2 semanas. Este proye
 
 
 
-<p><strong>Privacidad:</strong><br/>Estamos monitorieando comportamientos desde el navegador en computadores de escritorio con fines académicos solamente y no compartiremos ni utilizaremos tu información de ninguna manera diferente al objetivo de este estudio. Si tienes preguntas o preocupaciones, por favor <a href="mailto:sam926@nyu.edu,ckn220@nyu.edu,ssb425@nyu.edu?subject=Preguntas sobre el estudio Perspectiva" class="emailLink">contáctanos</a>.
+<p><strong>Privacidad:</strong><br/>Estamos monitoreando comportamientos desde el navegador en computadores de escritorio con fines académicos solamente y no compartiremos ni utilizaremos tu información de ninguna manera diferente al objetivo de este estudio. Si tienes preguntas o preocupaciones, por favor <a href="mailto:sam926@nyu.edu,ckn220@nyu.edu,ssb425@nyu.edu?subject=Preguntas sobre el estudio Perspectiva" class="emailLink">contáctanos</a>.
 </p>
 
             </div>
