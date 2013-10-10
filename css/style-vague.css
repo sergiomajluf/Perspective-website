@@ -94,6 +94,7 @@ a {
 	color: inherit;
 }
 #part-2 div.content p {
+	-webkit-column-break-inside: avoid;
 	column-break-inside: avoid;
 	display: inline-block; 
 }
@@ -241,7 +242,17 @@ a.callToAction {
 a.callToAction:hover {
 	background-color: #d1edc9;
 	color: #151d24;
+		column-break-inside: avoid;
+	display: inline-block; 
+		-webkit-column-break-inside: avoid;
+
+
 }
+
+#part-2 div.content p.group a.callToAction.scroll {
+margin-bottom: 160px;	
+}
+
 
 
 	
@@ -521,4 +532,11 @@ text-align: left;
 
 .cf {
 	*zoom: 1;
+}
+
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
 }

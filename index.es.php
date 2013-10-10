@@ -52,11 +52,9 @@
 
             </header>
 
-            <div class="content">
+            <div class="content" style="height:340px;">
      
- <p><a href="#part-3" title="You are welcome to join us today" class="callToAction scroll" data-speed="300">JOIN US!</a>
-</p>
-
+ <p class="group"><a href="#part-3" title="You are welcome to join us today" class="callToAction scroll" data-speed="300">JOIN US!</a></p>
 <p><strong>¿Cómo puedo participar?</strong><br />
 Buscamos voluntarios para participar en un estudio durante 2 semanas. Este proyecto está enfocado en usuarios del navegador Google Chrome, quienes deben descargar e instalar una extensión para este navegador. Te daremos unas sencillas instrucciones pasao a paso una vez que te <a href="#part-3" title="You are welcome to join us today" class="scroll" data-speed="300">registres</a> para este estudio. 
 </p>
