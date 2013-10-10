@@ -1,0 +1,48 @@
+<?php
+
+<<<<<<< HEAD
+
+    $url=parse_url(getenv("CLEARDB_DATABASE_URL"));
+
+    $server = $url["host"];
+    $username = $url["user"];
+    $password = $url["pass"];
+    $db = substr($url["path"],1);
+
+
+    mysql_connect($server, $username, $password);
+            
+    
+    mysql_select_db($db);
+
+=======
+/*
+	$hostname = "localhost";
+	$username = "root";
+	$password = "";
+	$dbname = "sam926";
+*/
+
+// START Heroku ClearDB
+
+    $url=parse_url(getenv("CLEARDB_DATABASE_URL"));
+
+    $server = $url["host"];
+    $username = $url["user"];
+    $password = $url["pass"];
+    $db = substr($url["path"],1);
+
+    mysql_connect($server, $username, $password);
+            
+    
+    mysql_select_db($db);
+
+>>>>>>> 38647fd68cc954aff7ddc66ca57a546883279ab3
+// END Heroku ClearDB
+
+//Connecting to your database
+            mysql_connect($hostname, $username, $password) OR DIE ("Unable to
+            connect to database! Please try again later.");
+            mysql_select_db($dbname);
+
+?>
