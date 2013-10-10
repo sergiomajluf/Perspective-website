@@ -56,12 +56,12 @@
      
  <p class="group"><a href="#part-3" title="You are welcome to join us today" class="callToAction scroll" data-speed="300">JOIN US!</a></p>
 <p><strong>¿Cómo puedo participar?</strong><br />
-Buscamos voluntarios para participar en un estudio durante 2 semanas. Este proyecto está enfocado en usuarios del navegador Google Chrome, quienes deben descargar e instalar una extensión para este navegador. Te daremos unas sencillas instrucciones pasao a paso una vez que te <a href="#part-3" title="You are welcome to join us today" class="scroll" data-speed="300">registres</a> para este estudio. 
+Buscamos voluntarios para participar en un estudio durante 2 semanas. Este proyecto está enfocado en usuarios que usan el navegador Google Chrome, quienes deben descargar e instalar una extensión para este navegador. Te daremos unas sencillas instrucciones paso a paso una vez que te <a href="#part-3" title="You are welcome to join us today" class="scroll" data-speed="300">registres</a> para este estudio. 
 </p>
 
 
 
-<p><strong>Privacidad:</strong><br/>Estamos monitoriean comportamientos desde el navegador en computadores de escritorio con fines académicos solamente, y no compartiremos ni utilizaremos tu información de ninguna manera diferente a la de este estudio. Si tienes preguntas o preocupaciones, por favor <a href="mailto:sam926@nyu.edu,ckn220@nyu.edu,ssb425@nyu.edu?subject=Inquiry about Perspective Research Study" class="emailLink">contáctanos</a>.
+<p><strong>Privacidad:</strong><br/>Estamos monitorieando comportamientos desde el navegador en computadores de escritorio con fines académicos solamente y no compartiremos ni utilizaremos tu información de ninguna manera diferente al objetivo de este estudio. Si tienes preguntas o preocupaciones, por favor <a href="mailto:sam926@nyu.edu,ckn220@nyu.edu,ssb425@nyu.edu?subject=Preguntas sobre el estudio Perspectiva" class="emailLink">contáctanos</a>.
 </p>
 
             </div>
