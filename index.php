@@ -6,7 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="description" content="Internet usage experiment">
     <meta name="viewport" content="width=device-width">
-    <meta property="og:image" content="i/perspective-logo.png" />
+    <meta property="og:title" content="The Rock"/>
+	<meta property="og:type" content="application"/>
+	<meta property="og:url" content="http://perspective-app.herokuapp.com/"/>
+	<meta property="og:image" content="http://perspective-app.herokuapp.com/i/perspective-logo.png" />
 
 
     <title>Perspective</title>
