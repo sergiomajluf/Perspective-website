@@ -1,11 +1,12 @@
 /* @override 
 	http://dev.lab/internet-study/css/style.css
 	http://dev.lab/perspective/css/style.css
+	http://dev.lab/perspective/css/style-vague.css
 */
 
 html, body {
 	color: #f5f5f5;
-	font-size: 14px;
+	font-size: 13px;
 	font-family: Lato, Arial, sans-serif;
 	padding: 0;
 	margin: 0;
@@ -65,7 +66,7 @@ h3 {
 	font-weight: 90000;
 	text-transform: uppercase;
 	font-size: 30px;
-	margin: 0 0 10px 0;
+	margin: 0 0 10px 40px;
 	color: #FFF;
 	text-shadow: 0 1px 1px rgba(0,0,0,0.7);
 }
@@ -84,37 +85,37 @@ h4.strong {
 }
 p {
 	margin: 0 0 1em 0;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 170%;
 	text-shadow: 0 1px 1px rgba(0,0,0,0.7);
 }
 
-section#part-1 {
+#part-2 div.content p {
+	column-break-inside: avoid;
+	display: inline-block; 
+}
+
+section#part-2 {
 	position: absolute;
 	top: 250px;
 	z-index: 1;
 }
 
-section#part-2 {
-	position: absolute;
-	top: 1000px;
-	z-index: 2;
-}
-
 section#part-3 {
 	position: absolute;
-	top: 2000px;
+	top: 900px;
 	z-index: 3;
 }
 
 .downloadInstructions {
 	-webkit-transition: all 0.25s ease-out;
-	-webkit-transform: scale(1.2, 1.2);
+	-webkit-transform: scale(1.15, 1.15);
 	opacity: 0.1;
 	-webkit-filter: blur(3px);
 	background-color: rgba(27,29,28,0.31);
-	margin: 00;
-	padding: 0 20px;
+	margin: 0;
+	padding: 30px;
+	width: 100p%;
 }
 
 .downloadInstructions img {
@@ -133,28 +134,45 @@ section#part-3 {
     -webkit-transition: all 0.25s ease-out;
     transition: all 0.25s ease-in;
 }
-.downloadInstructions ol li {
+.downloadInstructions ol {
+	margin: 0 0 30px 0;
+	padding: 0;
+	}
+	
+	.downloadInstructions ol li {
 	font: 16px Montserrat, Arial;
 	line-height: 1.8em;
+	list-style-position: inside;
+	border-bottom: 1px solid #445561;
+	padding: 10px 0;
 }
 .fade-out {
 	opacity: 0.4;
 }
 
 section#part-2 .content {
-	-webkit-column-count: 2;
-	-moz-column-count: 2;
-	-ms-column-count: 2;
-	-o-column-count: 2;
-	column-count: 2;
-	-webkit-column-gap: 30px;
-	-moz-column-gap: 30px;
-	-ms-column-gap: 30px;
-	-o-column-gap: 30px;
-	column-gap: 30px;
-	height: 350px;
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	-ms-column-count: 3;
+	-o-column-count: 3;
+	column-count: 3;
+	-webkit-column-gap: 90px;
+	-moz-column-gap: 90px;
+	-ms-column-gap: 90px;
+	-o-column-gap: 90px;
+	column-gap: 90px;
+	height: 320px;
 }
 
+#part-2 div.content a.callToAction.scroll {
+display: block;
+width: 68px;
+
+	position: relative;
+	top: 40px;
+	left: 40px;
+	margin-left: 0;
+}
 header {
 	display: block;
 	width: 980px;
@@ -162,22 +180,13 @@ header {
 }
 
 header p {
-		-webkit-column-count: 3;
-	-moz-column-count: 2;
-	-ms-column-count: 2;
-	-o-column-count: 2;
-	column-count: 2;
-	-webkit-column-gap: 30px;
-	-moz-column-gap: 30px;
-	-ms-column-gap: 30px;
-	-o-column-gap: 30px;
-	column-gap: 30px;
-	background-color: rgba(243,252,195,0.29)
-	
+	font-size: 20px;
+	font-style: italic;
+	margin: 0 0 50px 45px;
 }
 .content {
 	margin: 0 auto;
-	width: 980px;
+	width: 890px;
 	vertical-align: top;
 }
 
@@ -231,11 +240,7 @@ a.callToAction:hover {
 	color: #151d24;
 }
 
-#part-2 div.content a.callToAction.scroll {
-	position: relative;
-	top: 40px;
-	margin-left: 0;
-}
+
 	
 	
 #blob-1,
@@ -317,7 +322,7 @@ canvas {
 p strong {
 	text-transform: uppercase;
 	font: bold 16px Lato;
-	color: #91d6d1;
+	color: #a4eae5;
 }
 
 .logo:hover > .p-stem,
@@ -466,7 +471,7 @@ padding: 0 5px;
 }
 
 #registry div.field {
-	width: 450px;
+	width: 400px;
 display: inline-block;
 float: left;
 }

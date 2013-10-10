@@ -9,7 +9,7 @@
 
     <title>Perspective</title>
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,400italic,900|Montserrat:700' rel='stylesheet' type='text/css'>
-    <link href="css/style-vague.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
 
 
 <script>
@@ -39,27 +39,45 @@
             <h2>See yourself from a different point of view</h2>
         </header>
 
+        <section id="part-1">
+        <header>
+	        <h4 class="strong">We all love using social media.</h4>
+	        <h4>Each year, the number of hours we spend on YouTube, Facebook, Twitter and other social networking sites grows exponentially. Yet research shows we’ve never been so unhappy. <strong>We want to know why</strong>.
+	        </h4>
+        </header>
+        <div class="content">
+			<div id="factQuotes" class="cf">
+				<cite class="quotes">2.9 million hours are spent on Facebook each month	</cite>
+				<cite class="quotes">190 million is the average number of tweets per day</cite>
+				<cite class="quotes">2.9 billion hours are spent monthly on Youtube</cite>
+			</div>
+        </div>
+		<div class="content">
+        <p class="center">
+        <a href="#part-3" title="You are welcome to join us today" class="callToAction scroll" data-speed="500">JOIN US!</a> or <a href="#part-2" title="Learn more about this project" class="scroll" data-speed="300">Learn more</a>
+        </p>
+		</div>				
+
+                
+        </section>
 
         <section id="part-2">
             <header>
-                <!-- <h3>What is Perspective</h3> -->
-                <p>We are a team of NYU graduate students doing a research project about the Internet, with particular attention paid to participation within social media networks.</p>
-
+                <h3>What is Perspective</h3>
             </header>
 
             <div class="content">
-     
- <p><a href="#part-3" title="You are welcome to join us today" class="callToAction scroll" data-speed="300">JOIN US!</a>
+               
+<p><strong>Perspective</strong> is a research project on how we use the internet, with particular attention paid to participation within social media networks. Technology has the proven power to influence our behaviors, so we set to the task of investigating to what extent that influence can be measured, experienced and improved upon. 
 </p>
-
+<p><strong>Privacy:</strong><br/> We are monitoring social media habits for academic purposes alone. We are not sharing or profiting from your data in any way and we’re not storing your data. If you have any questions or concerns, please contact us. 
+</p>
 <p><strong>How can you participate?</strong><br />
-We are looking for volunteers who will participate in a 2 week study. This project requires the user to have a Google Chrome browser and to download and install a plugin. We will provide simple step-by-step installation instructions after you <a href="#part-3" title="You are welcome to join us today" class="scroll" data-speed="1000">sign up</a> for the study. 
+This project requires the user to have a Google Chrome browser and to download and install a plugin. We have provided steps by steps <a href="#part-4" title="How to Install" class="scroll">installation instructions</a> here. 
 </p>
 
 
-
-<p><strong>Privacy:</strong><br/>We are monitoring desktop behavior for academic purposes only and are not sharing or profiting from your data in any way. We will be happy to share the results of our research at the end of the study. If you have any questions or concerns, please <a href="mailto:sam962@nyu.edu;ckn220@nyu.edu;ckn220@nyu.edu">contact us</a>. 
-</p>
+         <a href="#part-3" title="You are welcome to join us today" class="callToAction scroll" data-speed="1000">JOIN US!</a>
 
             </div>
         </section>
@@ -103,11 +121,16 @@ We are looking for volunteers who will participate in a 2 week study. This proje
 
 		</section>
 			
+        <div id="blob-container">
+        <canvas></canvas> 
+        <img id="bg" src="i/pattern-bg.png"> <img id="blob-1" src="i/blob-1.png"> <img id="blob-2" src="i/blob-2.png"> <img id="blob-3" src="i/blob-3.png"> <img id="blob-4" src="i/blob-4.png"> <img id="blob-5" src="i/blob-5.png"> <img id="blob-6" src="i/blob-6.png"> <img id="blob-7" src="i/blob-7.png"> <img id="blob-8" src="i/blob-10.png"> <img id="blob-9" src="i/blob-7.png">
+        </div>
         
     </section>
     
 <script src="http://code.jquery.com/jquery-1.9.1.min.js" type="text/javascript"></script>
 <!-- <script src="js/jquery-1.9.1.min.js" type="text/javascript"></script> -->
+<script src="js/parallax.js" type="text/javascript"></script>
 <script src="js/smooth-scroll.js" type="text/javascript"></script>
 
 </script>
