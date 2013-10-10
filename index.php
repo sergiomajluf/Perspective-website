@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="description" content="Internet usage experiment">
     <meta name="viewport" content="width=device-width">
+    <meta property="og:image" content="i/perspective-logo.png" />
+
 
     <title>Perspective</title>
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,400italic,900|Montserrat:700' rel='stylesheet' type='text/css'>
