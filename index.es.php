@@ -1,14 +1,10 @@
-<?php
-  if ($_SERVER["HTTP_ACCEPT_LANGUAGE"] == "es")
-    header("location: index.es.php");
-?>
 <!DOCTYPE html>
 
 <html>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="description" content="Research on Internet usage">
+    <meta name="description" content="Investigación sobre el uso de Internet">
     <meta name="viewport" content="width=device-width">
     <meta property="og:title" content="Perspective App"/>
 	<meta property="og:type" content="application"/>
@@ -44,15 +40,15 @@
                 <div class="p-eye"></div>
             </div>
 
-			<h1>Perspective</h1>
-            <h2>See yourself from a different point of view</h2>
+			<h1>Perspectiva</h1>
+            <h2>Mírate desde un nuevo punto de vista</h2>
         </header>
 
 
         <section id="part-2">
             <header>
                 <!-- <h3>What is Perspective</h3> -->
-                <p>We are a team of NYU graduate students doing a research project about the Internet, with particular attention paid to participation within social media networks.</p>
+                <p>Somos un equipo de estudiantes de posgrado de la Universidad de Nueva York haciendo un proyecto de investigación sobre Internet, con especial atención a la participación en redes sociales.</p>
 
             </header>
 
@@ -61,13 +57,13 @@
  <p><a href="#part-3" title="You are welcome to join us today" class="callToAction scroll" data-speed="300">JOIN US!</a>
 </p>
 
-<p><strong>How can you participate?</strong><br />
-We are looking for volunteers who will participate in a 2 week study. This project requires the user to have a Google Chrome browser and to download and install a plugin. We will provide simple step-by-step installation instructions after you <a href="#part-3" title="You are welcome to join us today" class="scroll" data-speed="300">sign up</a> for the study. 
+<p><strong>¿Cómo puedo participar?</strong><br />
+Buscamos voluntarios para participar en un estudio durante 2 semanas. Este proyecto está enfocado en usuarios del navegador Google Chrome, quienes deben descargar e instalar una extensión para este navegador. Te daremos unas sencillas instrucciones pasao a paso una vez que te <a href="#part-3" title="You are welcome to join us today" class="scroll" data-speed="300">registres</a> para este estudio. 
 </p>
 
 
 
-<p><strong>Privacy:</strong><br/>We are monitoring desktop behavior for academic purposes only and are not sharing or profiting from your data in any way. We will be happy to share the results of our research at the end of the study. If you have any questions or concerns, please <a href="mailto:sam926@nyu.edu,ckn220@nyu.edu,ssb425@nyu.edu?subject=Inquiry about Perspective Research Study" class="emailLink">contact us</a>.
+<p><strong>Privacidad:</strong><br/>Estamos monitoriean comportamientos desde el navegador en computadores de escritorio con fines académicos solamente, y no compartiremos ni utilizaremos tu información de ninguna manera diferente a la de este estudio. Si tienes preguntas o preocupaciones, por favor <a href="mailto:sam926@nyu.edu,ckn220@nyu.edu,ssb425@nyu.edu?subject=Inquiry about Perspective Research Study" class="emailLink">contáctanos</a>.
 </p>
 
             </div>
@@ -75,18 +71,18 @@ We are looking for volunteers who will participate in a 2 week study. This proje
 
         <section id="part-3">
             <header>
-                <h3>Welcome aboard</h3>
+                <h3>¡Bienvenido a bordo!</h3>
             </header>
             
             <div class="content">
             
 				<div id="thankYouNote">
-					<p><strong>Thank you for joining our team and being part of this study, we are almost done.</strong></p>
-					<p>Just input your email so you can download the Chrome Extension. We will never share this address with anyone, or use it for any other purposes than this study. </p>
+					<p><strong>Gracias por unirte al equipo y participar de este estudio, estamos casi listos.</strong></p>
+					<p>Sólo ingresa tu email para que puedas descargar la Extensión de Chrome. No compartiremos tu dirección con nadie, ni la usaremos para fines diferentes a este estudio.</p>
 					
 					<form action="download.php" method="post" id="registry" class="myForm">
 					<div class='field'>
-						<label for="userEmail">My email is </label>
+						<label for="userEmail">Mi email es </label>
 						<input type="email" id="userEmail" name="userEmail" value="" class="myInput">
 					</div>
 					<div class='action'>
@@ -97,15 +93,15 @@ We are looking for volunteers who will participate in a 2 week study. This proje
 				</div>
 	            
 	            <div class="downloadInstructions">
-		            <p>Your downloaded is ready. To install this Chrome Extension following this simple steps:</p>
+		            <p>Tu descarga está lista. Para instalar esta Extensión, sigue estos simples pasos:</p>
 		            <ol>
-		            	<li>Locate the file you downloaded, and uncompress it by double clicking it's icon<img src="i/extract.png" width="800px"></li>
-		            	<li>Now, go back to Chrome, and go to Preferences (<code>⌘+,</code>), then Extensions.</li>
-		            	<li>Make sure the developer mode is active.<br /><img src="i/extensions.png" width="800px"></li>
-		            	<li>Click the "Load unpacked extension..." button, and select your unzipped folder</li>
-		            	<li>Close your browser, and restart Chrome</li>
+		            	<li>Encuentra el archivo que descargaste, y descomprímelo haciendo doble click sobre él.<img src="i/extract.png" width="800px"></li>
+		            	<li>Regresa a Chrome, y abre las Preferencias, y luego la opción Extensiones.</li>
+		            	<li>Activa la opción de desarrolladores.<br /><img src="i/extensions.png" width="800px"></li>
+		            	<li>Click en "Cargar extensión descomprimida..." y selecciona la carpeta que descomprimiste luego de descargar.</li>
+		            	<li>Cierra el navegador y vuelve a abrirlo.</li>
 		            </ol>
-		            <p>That's it!. We'll email you further information within a few days. We appreciate you helping with this study.</p>
+		            <p>¡Eso es todo! Te enviaremos un email con más información dentro de algunos días. Agradecemos tu participación en este estudios.</p>
 		         </div>
 	            
             </div>
