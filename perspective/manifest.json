@@ -1,0 +1,21 @@
+{
+  "name": "Perspective",
+  "version": "0.1.2",
+  "description": "A study about seeing yourself from a different point of view",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["background.js", "jquery.min.js"]
+  },
+  "content_scripts": [{
+      "matches": ["*://www.facebook.com/*"],
+      "css": ["basic.css"],
+      "js": ["jquery.min.js", "contentscript.js"]
+    }],
+    "web_accessible_resources": [
+      "jquery.min.js",
+      "contentscript.js"
+    ],
+    "permissions" : [
+      "tabs", "http://fbtimer.herokuapp.com/"
+    ]
+}
