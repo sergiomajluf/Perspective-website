@@ -112,10 +112,10 @@ section#part-3 {
 }
 
 .downloadInstructions {
-	-webkit-transition: all 0.25s ease-out;
+	/*-webkit-transition: all 0.25s ease-out;
 	-webkit-transform: scale(1.15, 1.15);
 	opacity: 0.1;
-	-webkit-filter: blur(3px);
+	-webkit-filter: blur(3px);*/
 	background-color: rgba(27,29,28,0.31);
 	margin: 0;
 	padding: 30px;
@@ -130,6 +130,13 @@ section#part-3 {
 
 .downloadInstructions.blur-in img:hover {
 	opacity: 0.8;
+}
+.status {
+	opacity: 0;
+}
+.fade-in {
+	opacity: 1;
+	color: #ccfa4f;
 }
 .blur-in {
     -webkit-filter: none;
@@ -461,14 +468,15 @@ height: 35px;
 width: 220px;
 border: none;
 padding: 0 5px;
+margin-left: 10px;
 	font: 16px Montserrat, Arial, Helvetica, Geneva, sans-serif;
 	color: #354554;
-	background-color: rgba(238,247,222,0.51);
+		background-color: rgba(254,255,254,0.7);
 }
 
 #registry input.myInput:active,
 #registry input.myInput:hover {
-		background-color: rgba(254,255,254,0.7);
+		background-color: rgba(254,255,254,0.9);
 
 	}
 #registry input.myButton {

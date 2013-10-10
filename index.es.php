@@ -84,14 +84,14 @@ Buscamos voluntarios para participar en un estudio durante 2 semanas. Este proye
 						<input type="email" id="userEmail" name="userEmail" value="" class="myInput">
 					</div>
 					<div class='action'>
-						<input type="submit" id="myButton" class="myButton" name="submit" value="Download the extension" disabled="disabled">
+						<input type="submit" id="myButton" class="myButton" name="submit" value="Descarga la extensión" disabled="disabled">
 					</div>
 					</form>
 					
 				</div>
 	            
 	            <div class="downloadInstructions">
-		            <p>Tu descarga está lista. Para instalar esta Extensión, sigue estos simples pasos:</p>
+		            <p class="status"><strong>Tu descarga está lista.</strong> Para instalar esta Extensión, sigue estos simples pasos:</p>
 		            <ol>
 		            	<li>Encuentra el archivo que descargaste, y descomprímelo haciendo doble click sobre él.<img src="i/extract.png" width="800px"></li>
 		            	<li>Regresa a Chrome, y abre las Preferencias, y luego la opción Extensiones.</li>
@@ -111,9 +111,7 @@ Buscamos voluntarios para participar en un estudio durante 2 semanas. Este proye
     
 <script src="http://code.jquery.com/jquery-1.9.1.min.js" type="text/javascript"></script>
 <!-- <script src="js/jquery-1.9.1.min.js" type="text/javascript"></script> -->
-<script src="js/smooth-scroll.js" type="text/javascript"></script>
-
-</script>
+<script src="js/smooth-scroll.js" type="text/javascript"></script></script>
 <script type="text/javascript">
 
 // http://jsfiddle.net/byrichardpowell/38MGS/1/
@@ -160,6 +158,9 @@ $('.myForm').on('submit', function() {
 	//alert('You submitted the form!');
 	$('.downloadInstructions').animatecss('blur-in', 250, function() { console.log('callback'); });
 	$('.myForm').animatecss('fade-out', 250, function() { console.log('callback'); });
+	$('.status').animatecss('fade-in', 250)
+	.delay(2000)
+	.css('color', '#fff');
 });
 
  

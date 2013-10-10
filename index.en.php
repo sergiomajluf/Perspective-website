@@ -93,7 +93,7 @@ We are looking for volunteers who will participate in a 2 week study. This proje
 				</div>
 	            
 	            <div class="downloadInstructions">
-		            <p>Your downloaded is ready. To install this Chrome Extension following this simple steps:</p>
+		            <p class="status"><strong>Your download is ready.</strong> To install this Chrome Extension following this simple steps:</p>
 		            <ol>
 		            	<li>Locate the file you downloaded, and uncompress it by double clicking it's icon<img src="i/extract.png" width="800px"></li>
 		            	<li>Now, go back to Chrome, and go to Preferences (<code>⌘+,</code>), then Extensions.</li>
@@ -162,6 +162,9 @@ $('.myForm').on('submit', function() {
 	//alert('You submitted the form!');
 	$('.downloadInstructions').animatecss('blur-in', 250, function() { console.log('callback'); });
 	$('.myForm').animatecss('fade-out', 250, function() { console.log('callback'); });
+	$('.status').animatecss('fade-in', 250)
+	.delay(2000)
+	.css('color', '#fff');
 });
 
  
