@@ -30,5 +30,5 @@ if(isset($_POST['submit'])){
 	}
 }
 
-	header( 'Location: https://github.com/sergiomajluf/Perspective/archive/master.zip' ) 
+	header( 'Location: perspective.zip' ) 
 ?>
