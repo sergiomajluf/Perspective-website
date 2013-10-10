@@ -90,6 +90,9 @@ p {
 	text-shadow: 0 1px 1px rgba(0,0,0,0.7);
 }
 
+a {
+	color: inherit;
+}
 #part-2 div.content p {
 	column-break-inside: avoid;
 	display: inline-block; 
@@ -166,11 +169,11 @@ section#part-2 .content {
 
 #part-2 div.content a.callToAction.scroll {
 display: block;
-width: 68px;
+width: 120px;
 
 	position: relative;
 	top: 40px;
-	left: 40px;
+	left: 70px;
 	margin-left: 0;
 }
 header {
@@ -223,14 +226,14 @@ a.scroll {
 }
 
 a.callToAction {
-	padding: 40px 20px;
+	padding: 60px 14px;
 	text-align: center;
 	text-decoration: none;
 	background-color: #151d24;
 	font-size: 14px;
 	color: #fff;
 	font-weight: bold;
-	border-radius:60px;
+	border-radius:90px;
 	text-shadow: 0 1px 1px rgba(0,0,0,0.3);
 	-webkit-transition: background-color 0.25s;
 	

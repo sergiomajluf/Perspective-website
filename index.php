@@ -53,12 +53,12 @@
 </p>
 
 <p><strong>How can you participate?</strong><br />
-We are looking for volunteers who will participate in a 2 week study. This project requires the user to have a Google Chrome browser and to download and install a plugin. We will provide simple step-by-step installation instructions after you <a href="#part-3" title="You are welcome to join us today" class="scroll" data-speed="1000">sign up</a> for the study. 
+We are looking for volunteers who will participate in a 2 week study. This project requires the user to have a Google Chrome browser and to download and install a plugin. We will provide simple step-by-step installation instructions after you <a href="#part-3" title="You are welcome to join us today" class="scroll" data-speed="300">sign up</a> for the study. 
 </p>
 
 
 
-<p><strong>Privacy:</strong><br/>We are monitoring desktop behavior for academic purposes only and are not sharing or profiting from your data in any way. We will be happy to share the results of our research at the end of the study. If you have any questions or concerns, please <a href="mailto:sam962@nyu.edu;ckn220@nyu.edu;ckn220@nyu.edu">contact us</a>. 
+<p><strong>Privacy:</strong><br/>We are monitoring desktop behavior for academic purposes only and are not sharing or profiting from your data in any way. We will be happy to share the results of our research at the end of the study. If you have any questions or concerns, please <a href="mailto:sam926@nyu.edu,ckn220@nyu.edu,ssb425@nyu.edu?subject=Inquiry about Perspective Research Study" class="emailLink">contact us</a>.
 </p>
 
             </div>
