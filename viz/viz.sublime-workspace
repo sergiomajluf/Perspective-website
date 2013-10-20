@@ -1,0 +1,393 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"M",
+				"myData"
+			],
+			[
+				"re",
+				"rect"
+			],
+			[
+				"selec",
+				"selectAll"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"sele",
+				"selectAll"
+			],
+			[
+				"sel",
+				"selectAll"
+			],
+			[
+				"GetCo",
+				"GetComponent	type"
+			],
+			[
+				"De",
+				"Debug"
+			],
+			[
+				"wr",
+				"write"
+			],
+			[
+				"write",
+				"writeHead"
+			],
+			[
+				"file",
+				"files"
+			],
+			[
+				"form",
+				"formidable"
+			],
+			[
+				"for",
+				"formidable"
+			],
+			[
+				"w",
+				"write"
+			],
+			[
+				"wri",
+				"writeHead"
+			],
+			[
+				"pos",
+				"postData"
+			],
+			[
+				"res",
+				"response"
+			],
+			[
+				"get",
+				"getTime"
+			],
+			[
+				"thi",
+				"thingToSpin"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "4.html",
+			"settings":
+			{
+				"buffer_size": 1157,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 347.0,
+		"selected_items":
+		[
+			[
+				"tem",
+				"Create file from Template"
+			],
+			[
+				"pre",
+				"Preview"
+			],
+			[
+				"previ",
+				"Preview"
+			],
+			[
+				"set syntax: ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"templ",
+				"Create file from Template"
+			],
+			[
+				"html",
+				"TidyHTML"
+			],
+			[
+				"json",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"pretty",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"prett",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"sidebar",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"side",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"tid",
+				"TidyHTML"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"POack",
+				"Package Control: Install Package"
+			],
+			[
+				"Packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Set",
+				"Set Syntax: C#"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/sergiomajluf/Sites/lab/perspective/viz/viz.sublime-workspace",
+		"/Users/sergiomajluf/Sites/lab/d3/02.html",
+		"/Users/sergiomajluf/Sites/lab/perspective/viz/data/user_document.json",
+		"/Users/sergiomajluf/Sites/lab/perspective/viz/mydata.json",
+		"/Users/sergiomajluf/Sites/lab/perspective/viz/data/user_document-TRUNK.json",
+		"/Users/sergiomajluf/Sites/lab/perspective/viz/user_document.json",
+		"/Users/sergiomajluf/Sites/lab/perspective/viz/02.html",
+		"/Users/sergiomajluf/Sites/lab/perspective/viz/4.html",
+		"/Users/sergiomajluf/Sites/lab/perspective/viz/0.html",
+		"/Users/sergiomajluf/Sites/lab/perspective/viz/2.html",
+		"/Users/sergiomajluf/Sites/lab/perspective/viz/3.html",
+		"/Users/sergiomajluf/Sites/lab/perspective/viz/index.html",
+		"/Users/sergiomajluf/Sites/lab/perspective/viz/data/data.json",
+		"/Users/sergiomajluf/Library/Application Support/Sublime Text 2/Packages/Preview/Preview.sublime-settings",
+		"/Users/sergiomajluf/Library/Application Support/Sublime Text 2/Packages/User/Preview.sublime-settings",
+		"/Users/sergiomajluf/Dropbox/Processing/_ITP/Data-Representation/hotel-data/hydrozoa.json",
+		"/Users/sergiomajluf/Sites/lab/spacebrew/node_persistent_admin.js",
+		"/Users/sergiomajluf/Sites/lab/spacebrew/package.json",
+		"/Users/sergiomajluf/Sites/lab/spacebrew/node_server.js",
+		"/Users/sergiomajluf/Sites/lab/spacebrew/node_server_forever.js",
+		"/Users/sergiomajluf/Sites/lab/spacebrew/node_persistent_live.js",
+		"/Users/sergiomajluf/Sites/lab/spacebrew/spacebrew.sublime-project",
+		"/Users/sergiomajluf/Sites/lab/expanse/readme.md",
+		"/Users/sergiomajluf/Sites/lab/node/fileServer.js",
+		"/Users/sergiomajluf/Sites/lab/node/helloworld.js",
+		"/Users/sergiomajluf/Library/Application Support/Sublime Text 2/Packages/C#/Build.tmLanguage",
+		"/Users/sergiomajluf/Documents/UnityProjects/Begginer/Assets/Webcam.cs",
+		"/Users/sergiomajluf/Downloads/piconnect_03.py",
+		"/Users/sergiomajluf/Sites/santiagoamil.cl/wp-content/themes/stgoamil2013/wp-advanced-search-master/README.md",
+		"/Users/sergiomajluf/Sites/santiagoamil.cl/wp-content/themes/stgoamil2013/category-encuentros-de-trasnoche-2013.php",
+		"/Users/sergiomajluf/Library/Application Support/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"data",
+			"xSpeed",
+			"#",
+			"#ping"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "4.html",
+					"settings":
+					{
+						"buffer_size": 1157,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"open",
+				"/Users/sergiomajluf/Documents/UnityProjects/Begginer/Assets/Scenes/04-scripts-and-objects.unity"
+			],
+			[
+				"",
+				"untitled"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 195.0,
+	"status_bar_visible": true
+}
