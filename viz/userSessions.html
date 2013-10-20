@@ -1,0 +1,105 @@
+<!doctype html>
+<!--[if lt IE 7]> <html lang="en-us" class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html lang="en-us" class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html lang="en-us" class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en-us"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <title>Perspective Visualized</title>
+
+  <meta name="viewport" content="width=device-width">
+  <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+
+<script>
+var data;
+var u;
+
+var width = 1200;
+var height = 400;
+
+var widthScale = d3.scale.linear()
+					.domain([0, 300])
+					.range([0, width]);
+
+var color = d3.scale.linear()
+					.domain([20, 60])
+					.range(["green", "blue"])
+
+
+d3.json("data/user_document.json", function (error, json) {
+ 		
+ 		if (error) {
+ 				console.log("las pelotas");
+ 				return console.warn(error);
+ 			}
+  		data = json;
+  		
+		var canvas = d3.select("body").append("svg")
+		.attr("width", width)
+		.attr("height", height)
+
+		var bars = canvas.selectAll("rect")
+			.data(data)
+			.enter()
+				.append("g")
+     			.attr("transform", "translate(330,30)")
+				.append("rect")
+				.attr("width", function (d) { 
+					var userSessions =  d.userSessions; 
+					var matrix = d.userSessions;
+					for (var u in userSessions){
+						 u++;
+					}
+					return widthScale(u);
+				})
+				.attr("height", 25)
+				.attr("y", function (d, i) { return i * 27; })
+				.attr("fill", "#dedede");
+
+		var personID = canvas.selectAll("text")
+			.data(data)
+			.enter()
+				.append("g")
+				.attr("transform", "translate(210,30)")
+				.append("text")
+				.attr("fill", "#ccc")
+				.attr("x", 0)
+				.attr("y", function (d, i) { return i * 27 + 15; })
+				.text( function (d) { 
+					return d.personID; 
+					 })
+				.attr("text-anchor", "end");
+
+		var totalTime = canvas.selectAll("p")
+			.data(data)
+			.enter()
+				.append("g")
+				.attr("transform", "translate(230,30)")
+				.append("text")
+				.attr("fill", "#DFDFDF")
+				.attr("x", -0)
+				.attr("y", function (d, i) { return i * 27 + 15; })
+				.text(function (d) { 
+					var userSessions =  d.userSessions; 
+					for (var u in userSessions){
+						 u++;
+					}
+					return u + " sessions";
+				})
+				.attr("text-anchor", "start");
+
+
+
+
+
+	});
+
+
+</script>
+
+</body>
+</html>
